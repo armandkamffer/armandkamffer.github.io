@@ -59,3 +59,38 @@
             filter: drop-shadow( 0px 0px 8px #301054 );
 }
 
+.coronaBanner {
+  display: block;
+  background-color: white;
+  text-align: center;
+  padding: 1em;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  font-size: 0.8em;
+  line-height: 1.6em;
+}
+
+.coronaBanner__content {
+  display: inline-block;
+  text-align: left;
+}
+
+.coronaBanner__websiteLink {
+  display: block;
+}
+.coronaBanner__websiteLinkImg {
+  border: 0;
+}
+
+.coronaBanner__hotlineLink,
+.coronaBanner__whatsappLink {
+  display: block;
+  text-decoration: none;
+  color: #e95211;
+}
+  .coronaBanner__hotlineLink:hover,
+  .coronaBanner__whatsappLink:hover {
+    text-decoration: underline;
+  }
+.coronaBanner__hotlineLink {
+  font-weight: bold;
+}
